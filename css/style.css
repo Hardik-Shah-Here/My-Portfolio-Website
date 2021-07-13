@@ -976,3 +976,307 @@ nav{
         margin-top: 5px;
     }
 }
+
+
+
+
+
+/* Styling Contact Part */
+.contact-container{
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    height: 650px;
+    background: url('../images/map-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box{
+    width: 45%;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-input{
+    width: 45%;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form input{
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #378c3f;
+    border-radius: 0px;
+    margin: 14px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Styling Labelled Input Part */
+/*.wrapper{
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}*/
+
+.input-data{
+    height: 40px;
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    border-bottom: 2px solid silver;
+}
+
+.input-data input:focus{
+    outline: none;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-25px);
+    font-size: 15px;
+    color: #378c3f;
+}
+
+.input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-data .underline{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+}
+
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #378c3f;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+}
+
+
+
+
+
+.input-textarea{
+    height: 50px;
+    width: 90%;
+    position: relative;
+    margin-top: 37px;
+    margin-left: 10%;
+}
+
+.input-textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    border-bottom: 2px solid silver;
+    resize: none;
+}
+
+.input-textarea textarea:focus{
+    outline: none;
+}
+
+.input-textarea textarea:focus ~ label,
+.input-textarea textarea:valid ~ label{
+    transform: translateY(-45px);
+    font-size: 15px;
+    color: #378c3f;
+}
+
+.input-textarea label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-textarea .underline{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+}
+
+.input-textarea .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #378c3f;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input-textarea textarea:focus ~ .underline:before,
+.input-textarea textarea:valid ~ .underline:before{
+    transform: scaleX(1);
+}
+
+.btn-send{
+    margin-left: 10%;
+    margin-top: 35px;
+    width: 95px;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-details{
+    width: 55%;
+}
+
+.contacts-box{
+    display: flex;
+    flex-direction: row;
+    margin: 23px 24px;
+}
+
+.contact-icon{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    background: #378c3f;
+    border-radius: 50%;
+    font-size: 17px;
+    margin: 0 20px;
+    color: white;
+}
+
+.contact-text{
+    padding: 0 15px 0 0;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.head-1{
+    font-family: 'Montserrat';
+    color: #101820FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1380px){
+    .contact-box{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .contact-box{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .contact-box{
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contact-container{
+        height: fit-content;
+        padding: 30px 0;
+    }
+    .contact-box{
+        height: fit-content;
+        width: 75vw;
+    }
+
+    .contact-div{
+        flex-direction: column-reverse;
+    }
+
+    .contact-input{
+        width: 100%;
+    }
+
+    .contact-details{
+        width: 100%;
+    }
+
+    .input-data{
+        width: 80%;
+    }
+
+    .input-textarea{
+        width: 80%;
+    }
+
+    .btn-send{
+        margin-bottom: 20px;
+    }
+}
