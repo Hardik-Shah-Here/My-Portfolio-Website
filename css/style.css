@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -1181,6 +1182,7 @@ nav{
     margin-top: 35px;
     width: 95px;
     padding: 8px 0;
+    border: none;
 }
 
 
