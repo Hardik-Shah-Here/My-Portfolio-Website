@@ -946,7 +946,7 @@ nav{
 .text-box ul li h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 .text-box ul li p{
@@ -954,3 +954,21 @@ nav{
     font-size: 15px;
 }
 
+@media screen and (max-width: 760px){
+    .exp-box{
+        flex-direction: column;
+    }
+
+    .green-box{
+        width: 100%;
+        min-height: 120px;
+    }
+
+    .text-box{
+        width: 100%;
+    }
+
+    .text-box ul li h4{
+        margin-top: 5px;
+    }
+}
