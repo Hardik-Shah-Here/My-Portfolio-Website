@@ -30,6 +30,17 @@ var isCsi = false;
 //console.log(code);
 //console.log(csi);
 
+const img1 = document.querySelector('.img1');
+const img2 = document.querySelector('.img2');
+const img3 = document.querySelector('.img3');
+const img4 = document.querySelector('.img4');
+const h3_1 = document.querySelector('.h3-1');
+const h3_2 = document.querySelector('.h3-2');
+const h3_3 = document.querySelector('.h3-3');
+const h3_4 = document.querySelector('.h3-4');
+const h4 = document.querySelectorAll('.h4');
+
+
 web_dev.addEventListener('click', (e)=>{
     //To prevent going to the top of the page
     e.preventDefault();
@@ -37,6 +48,17 @@ web_dev.addEventListener('click', (e)=>{
     {
         web_dev.classList.add('selected');
         isWebDev = true;
+
+        img1.src = "images/web-dev4.png";
+        img2.src = "images/web-dev5.png";
+        img3.src = "images/web-dev7.png";
+        img4.src = "images/web-dev1.png";
+        h3_1.innerText = "Ice Cream Parlot Project - Django";
+        h3_2.innerText = "React Js Weather App";
+        h3_3.innerText = "To Do List App in React.js";
+        h3_4.innerText = "JavaScript Music Player";
+        for(var i=0; i<4; i++)
+            h4[i].innerText = "Web Development";
         
         if(isCsi)
         {
@@ -58,6 +80,16 @@ code.addEventListener('click', (e)=>{
     {
         code.classList.add('selected');
         isCode = true;
+
+        img1.src = "images/code1.png";
+        img2.src = "images/code2.png";
+        img4.src = "images/code3.png";
+        h3_1.innerText = "Codechef";
+        h3_2.innerText = "HackerRank";
+        h3_3.innerText = "GeeksForGeeks";
+        h3_4.innerText = "Github";
+        for(var i=0; i<4; i++)
+            h4[i].innerText = "Coding Profiles";
 
         if(isCsi)
         {
