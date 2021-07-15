@@ -779,10 +779,12 @@ nav{
 
 .container1:hover .middle-content1{
     opacity: 1;
+    cursor: pointer;
 }
 
 .container1:hover .middle-content2{
     opacity: 1;
+    cursor: pointer;
 }
 
 .middle-content1{
