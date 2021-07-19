@@ -1300,3 +1300,66 @@ nav{
         font-size: 14px;
     }
 }
+
+
+
+
+
+/* Styling the Footer */
+.footer-container{
+    padding: 30px 0;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container2{
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+    position: relative;
+}
+
+.icon-container2 .icons-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon-container2 ul li{
+    list-style: none;
+    height: 47px;
+    width: 47px;
+    background: grey;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.icon-container2 ul li:hover{
+    background: #378c3f;
+}
+
+.icon-container2 ul li a{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+
+.icon-container2 ul li a i{
+    line-height: 47px;
+}
+
+.footer-title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.faint-para p{
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    opacity: 0.7;
+}
