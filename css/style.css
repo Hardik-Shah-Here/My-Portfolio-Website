@@ -1257,15 +1257,27 @@ nav{
     }
     .contact-box{
         height: fit-content;
-        width: 75vw;
+        width: 80vw;
     }
 
     .contact-div{
         flex-direction: column-reverse;
     }
 
+    .contacts-box{
+        margin: 23px 5px;
+    }
+
     .contact-input{
         width: 100%;
+    }
+
+    .contact-icon{
+        margin: 0 10px;
+    }
+
+    .contact-text{
+        padding: 0 5px 0 0;
     }
 
     .contact-details{
@@ -1282,5 +1294,9 @@ nav{
 
     .btn-send{
         margin-bottom: 20px;
+    }
+
+    .p-text{
+        font-size: 14px;
     }
 }
