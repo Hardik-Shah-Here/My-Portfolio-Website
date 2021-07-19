@@ -83,6 +83,7 @@ code.addEventListener('click', (e)=>{
 
         img1.src = "images/code1.png";
         img2.src = "images/code2.png";
+        img3.src = "images/code4.png";
         img4.src = "images/code3.png";
         h3_1.innerText = "Codechef";
         h3_2.innerText = "HackerRank";

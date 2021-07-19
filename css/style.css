@@ -842,6 +842,7 @@ nav{
 
     .img3{
         height: 270px;
+        object-fit: contain;
     }
 
     .img4{
