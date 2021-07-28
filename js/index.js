@@ -52,6 +52,7 @@ web_dev.addEventListener('click', (e)=>{
         img1.src = "images/web-dev4.png";
         img2.src = "images/web-dev5.png";
         img3.src = "images/web-dev7.png";
+        img3.style.objectFit = "cover";
         img4.src = "images/web-dev1.png";
         h3_1.innerText = "Ice Cream Parlot Project - Django";
         h3_2.innerText = "React Js Weather App";
@@ -84,6 +85,7 @@ code.addEventListener('click', (e)=>{
         img1.src = "images/code1.png";
         img2.src = "images/code2.png";
         img3.src = "images/code4.png";
+        img3.style.objectFit = "contain";
         img4.src = "images/code3.png";
         h3_1.innerText = "Codechef";
         h3_2.innerText = "HackerRank";
@@ -112,6 +114,18 @@ csi.addEventListener('click', (e)=>{
     {
         csi.classList.add('selected');
         isCsi = true;
+
+        img1.src = "images/csi-2.jpeg";
+        img2.src = "images/csi-1.jpeg";
+        img3.src = "images/csi-3.png";
+        img3.style.objectFit = "cover";
+        //img4.src = "images/code3.png";
+        h3_1.innerText = "Talk To Leads";
+        h3_2.innerText = "Django Webinar";
+        h3_3.innerText = "Art of Living";
+        //h3_4.innerText = "Github";
+        for(var i=0; i<4; i++)
+            h4[i].innerText = "CSI - Computer Society Of India";
 
         if(isWebDev)
         {
